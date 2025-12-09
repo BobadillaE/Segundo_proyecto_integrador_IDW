@@ -1,0 +1,58 @@
+.user-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e60023 0%, #ad081b 100%);
+  padding: 24px;
+}
+
+.user-form-card {
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+}
+
+.user-form-card h2 {
+  margin: 0 0 8px 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #111;
+  text-align: center;
+}
+
+.user-form-card p {
+  margin: 0 0 24px 0;
+  color: #767676;
+  text-align: center;
+  font-size: 14px;
+}
+
+.user-form-card form {
+  margin-top: 24px;
+}
+
+.user-form-card .form-control {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+.user-form-card .form-control:focus {
+  outline: none;
+  border-color: #e60023;
+}
+
+.user-form-card .btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
