@@ -6,7 +6,8 @@
 ---
 
 ## 👥 Autores
-* **Emiliano Bobadilla Franco**
+* **Emiliano Bobadilla Franco**![0974211b-171b-4315-ab7a-c181f9652653](https://github.com/user-attachments/assets/f44260ca-864f-4934-a8e0-5cb075770736)
+
 * **Luis Eduardo Suarez Arroyo**
 
 *(Nota: Recuerden agregar sus fotografías aquí para cumplir con el requisito del entregable).*
