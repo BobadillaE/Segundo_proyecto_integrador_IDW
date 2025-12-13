@@ -16,7 +16,7 @@ function ImageCard({ post, currentUserId, onEdit, onDelete, onSave }) {
       className="card border-0 shadow-sm image-card w-100"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      style={{ borderRadius: '16px', overflow: 'hidden', height: '100%', display: 'flex', flexDirection: 'column' }}
+      style={{ borderRadius: '16px', overflow: 'hidden', display: 'flex', flexDirection: 'column' }}
     >
       <div className="position-relative image-wrapper" style={{ borderRadius: '16px 16px 0 0', overflow: 'hidden' }}>
         <img

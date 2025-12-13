@@ -15,7 +15,7 @@ function ImageGrid({ posts, currentUserId, onEdit, onDelete, onSave }) {
     <div className="container-fluid px-4">
       <div className="row g-4">
         {posts.map((post) => (
-          <div key={post.id} className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex">
+          <div key={post.id} className="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
             <ImageCard
               post={post}
               currentUserId={currentUserId}
