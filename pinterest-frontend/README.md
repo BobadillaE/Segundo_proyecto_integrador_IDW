@@ -449,25 +449,3 @@ Este frontend consume el backend Python FastAPI. Ver `api/README.md` para docume
 | GET | `/discover` | Obtener imágenes Unsplash |
 | GET | `/health` | Verificación de salud |
 
----
-
-## Checklist del Proyecto
-
-### Frontend ✅
-- [x] Mosaico de imágenes (masonry)
-- [x] Formulario de alta
-- [x] Formulario de edición
-- [x] Formulario de eliminación
-- [x] Sección Discover
-- [x] localStorage + timestamp
-- [x] sessionStorage para usuario
-- [x] Responsive con Bootstrap
-- [x] OpenGraph meta tags
-- [x] Integración con FastAPI backend
-
-### General
-- [ ] Repositorio GitHub con PRs
-- [ ] Deploy de frontend
-- [ ] Deploy de backend
-- [ ] README completo
-- [ ] Live demo
