@@ -31,7 +31,7 @@ Esta aplicación es una plataforma de descubrimiento visual estilo "Pinterest". 
 ## 🔗 Live Demo (Despliegue)
 * **Frontend (Sitio Web):** [PENDIENTE_LINK_DEL_FRONTEND]
 * **Backend (API & Docs):** [https://api-pinterest-vegh.onrender.com/docs]
-* **Health Check:** `https://api-pinterest-vegh.onrender.com//health`
+* **Health Check:** `https://api-pinterest-vegh.onrender.com/health`
 
 ---
 
@@ -77,6 +77,70 @@ El backend está construido con **Python (FastAPI)** y utiliza **SQLite** como b
     uvicorn main:app --reload
     ```
     El servidor iniciará en: `http://localhost:8000`
+
+---
+
+## ⚙️ Instrucciones para levantar el Frontend
+
+El frontend está construido con **React + Vite** y utiliza **Bootstrap 5.3.8** para el diseño.
+
+### Prerrequisitos
+* Node.js 16 o superior (y npm incluido).
+* Backend ejecutándose en `http://localhost:8000` (o la URL configurada).
+
+### Pasos de instalación local
+
+1.  **Navegar a la carpeta del frontend:**
+    ```bash
+    cd pinterest-frontend
+    ```
+
+2.  **Instalar dependencias:**
+    ```bash
+    npm install
+    ```
+
+3.  **Configurar Variables de Entorno (Opcional):**
+    Crear un archivo `.env` dentro de la carpeta `pinterest-frontend/` para personalizar la URL de la API:
+    ```env
+    VITE_API_BASE_URL=http://localhost:8000
+    ```
+    > **Nota:** Si no se configura, el frontend usará `http://localhost:8000` por defecto.
+
+4.  **Levantar el servidor de desarrollo:**
+    ```bash
+    npm run dev
+    ```
+    La aplicación iniciará en: `http://localhost:5173`
+
+5.  **Construir para producción (Opcional):**
+    ```bash
+    npm run build
+    ```
+    Los archivos optimizados se generarán en la carpeta `dist/`.
+
+### Características del Frontend
+
+* **Stack Tecnológico:**
+  * React 19.2.0
+  * Vite 7.2.4 (Build tool)
+  * Bootstrap 5.3.8 (Framework CSS)
+  
+* **Funcionalidades:**
+  * Autenticación mediante sessionStorage (identificación de usuario)
+  * CRUD completo de posts (crear, leer, actualizar, eliminar)
+  * Sección Discovery con integración de Unsplash
+  * Caché localStorage con sincronización incremental
+  * Soporte offline (fallback a caché cuando la API no está disponible)
+  * Diseño responsivo tipo "Masonry Layout"
+  * Interacciones hover en tarjetas de imágenes
+  * Manejo de errores y estados de carga
+
+* **Estructura Principal:**
+  * `src/components/` - Componentes React reutilizables
+  * `src/services/` - Servicios de API y almacenamiento local
+  * `src/css-styles/` - Estilos CSS personalizados
+  * `src/App.jsx` - Componente principal de la aplicación
 
 ---
 
