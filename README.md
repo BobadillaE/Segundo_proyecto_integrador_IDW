@@ -7,10 +7,14 @@
 
 ## 👥 Autores
 * **Emiliano Bobadilla Franco**
+* 
 ![unnamed](https://github.com/user-attachments/assets/c6598b7d-1c90-4fe4-a375-aece942c5603)
 
 
 * **Luis Eduardo Suarez Arroyo**
+* 
+![imagen grad](https://github.com/user-attachments/assets/ba228ae1-3532-4e65-8822-5ba64a8f59aa)
+
 
 *(Nota: Recuerden agregar sus fotografías aquí para cumplir con el requisito del entregable).*
 
@@ -29,7 +33,7 @@ Esta aplicación es una plataforma de descubrimiento visual estilo "Pinterest". 
 ---
 
 ## 🔗 Live Demo (Despliegue)
-* **Frontend (Sitio Web):** [PENDIENTE_LINK_DEL_FRONTEND]
+* **Frontend (Sitio Web):** [https://segundoproyectointegrador-d3c9x6qr2-luisesuarezas-projects.vercel.app/]
 * **Backend (API & Docs):** [https://api-pinterest-vegh.onrender.com/docs]
 * **Health Check:** `https://api-pinterest-vegh.onrender.com/health`
 
